@@ -20,7 +20,7 @@ export default function AppNavbar() {
         {/* Logo */}
         <Navbar.Brand as={Link} to="/" aria-label="Homepage">
           <img
-            src="../assets/images/dhc-official-logo.jpg"
+            src="./assets/images/dhc-official-logo.jpg"
             alt="SaaS E-Learning Platform Logo"
             width="150"
             className="d-inline-block align-top"

@@ -55,6 +55,23 @@ export default function Home() {
         </Container>
       </section>
 
+      <section className="sdg-info">
+        <h2>About SDG 4 – Quality Education</h2>
+        <p>
+          Sustainable Development Goal 4 (SDG 4) is a global commitment to:
+          ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.
+        </p>
+        <ul>
+          <li><strong>Target 4.1:</strong> Free primary and secondary education by 2030</li>
+          <li><strong>Target 4.5:</strong> Eliminate gender disparities and ensure equal access</li>
+          <li><strong>Target 4.7:</strong> Promote education for sustainable development and global citizenship</li>
+        </ul>
+        <p>
+          Learn more at the <a href="https://www.unesco.org/sdg4education2030/en/knowledge-hub" target="_blank" rel="noopener noreferrer">
+            UNESCO SDG 4 Knowledge Hub</a>.
+        </p>
+      </section>
+
       {/* Call-to-Action Section */}
       <section className="py-5 text-center bg-secondary text-white" aria-label="Call to action">
         <Container>
