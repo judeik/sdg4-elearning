@@ -1,0 +1,94 @@
+/* src/assets/css/AdminSidebar.css */
+/* Admin Sidebar Styles (AdminSidebar.css) */
+/* ================================ */
+
+/* Main Sidebar */
+.admin-sidebar {
+  background-color: #ffffff;
+  width: 260px;
+  min-height: 100vh;
+  padding: 1rem 0.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s ease-in-out;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Collapsed Sidebar */
+.admin-sidebar.collapsed {
+  width: 70px;
+}
+
+/* Text inside links */
+.admin-sidebar .link-text {
+  margin-left: 10px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Hide text when collapsed */
+.admin-sidebar.collapsed .link-text {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Toggle Button */
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #0d6efd;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+.toggle-btn:focus {
+  outline: 2px solid #0d6efd;
+  outline-offset: 2px;
+}
+
+/* Nav Links */
+.admin-sidebar .nav-link {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 0.75rem;
+  color: #444;
+  border-radius: 8px;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.admin-sidebar .nav-link:hover,
+.admin-sidebar .nav-link:focus {
+  background-color: #f0f7ff;
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.admin-sidebar .nav-link svg {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}
+
+/* Active State */
+.admin-sidebar .nav-link.active {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 991px) {
+  .admin-sidebar {
+    left: -260px;
+    transition: left 0.3s ease-in-out;
+  }
+
+  .admin-sidebar.open {
+    left: 0;
+  }
+}

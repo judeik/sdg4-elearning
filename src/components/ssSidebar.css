@@ -1,0 +1,41 @@
+/* Sidebar styling */
+.student-sidebar {
+  width: 220px;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  transition: width 0.3s ease;
+}
+
+.student-sidebar.collapsed {
+  width: 60px;
+}
+
+.student-sidebar .nav-link {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.student-sidebar .nav-link:hover {
+  background-color: #e9ecef;
+  border-radius: 4px;
+}
+
+.toggle-btn {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  /* Mobile: hidden by default, slides in when active */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 1050;
+    transition: left 0.3s ease;
+  }
+
+  .sidebar.show {
+    left: 0;
+  }
+}

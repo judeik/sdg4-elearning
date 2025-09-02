@@ -1,0 +1,94 @@
+/* src/assets/css/Sidebar.css */
+/* ==============================
+   Student Sidebar Styles
+   ============================== */
+
+.student-sidebar {
+  width: 240px;
+  background-color: #ffffff;
+  border-right: 1px solid #eaeaea;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width 0.3s ease, transform 0.3s ease;
+  z-index: 1050; /* keeps it above content */
+  overflow-x: hidden;
+  padding-top: 60px; /* space for toggle buttons */
+}
+
+/* Collapsed sidebar (desktop) */
+.student-sidebar.collapsed {
+  width: 70px;
+}
+
+/* Mobile sidebar overlay */
+.student-sidebar.open {
+  transform: translateX(0);
+}
+
+@media (max-width: 991px) {
+  .student-sidebar {
+    transform: translateX(-100%);
+  }
+}
+
+/* Toggle button */
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #333;
+  margin: 10px;
+  transition: color 0.3s ease;
+}
+
+.toggle-btn:hover,
+.toggle-btn:focus {
+  color: #0d6efd; /* Bootstrap primary color */
+  outline: none;
+}
+
+/* Navigation links */
+.student-sidebar .nav-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  color: #333;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  border-radius: 6px;
+  margin: 4px 8px;
+}
+
+.student-sidebar .nav-link:hover,
+.student-sidebar .nav-link:focus {
+  background-color: #f0f4ff;
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+/* Icon spacing */
+.student-sidebar .nav-link svg {
+  margin-right: 10px;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}
+
+/* Hide link text when collapsed */
+.student-sidebar.collapsed .link-text {
+  display: none;
+}
+
+/* Center icons when collapsed */
+.student-sidebar.collapsed .nav-link {
+  justify-content: center;
+  padding: 12px;
+}
+
+/* Smooth transition for text + icons */
+.link-text {
+  transition: opacity 0.3s ease;
+}

@@ -1,0 +1,91 @@
+/* Global Reset & Box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  background-color: #f5f6fa;
+  color: #212529;
+  scroll-behavior: smooth;
+}
+
+/* Links */
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+  outline: none;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Buttons Focus Outline */
+button:focus,
+a:focus {
+  outline: 2px dashed #0d6efd;
+  outline-offset: 2px;
+}
+
+/* Utility Classes */
+.text-center-md {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .text-center-md {
+    text-align: left;
+  }
+}
+
+/* Smooth Scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar Overrides */
+.navbar .nav-link {
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #0a58ca;
+  background-color: rgba(13, 110, 253, 0.1);
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Footer Links */
+footer a {
+  transition: color 0.2s ease;
+}
+footer a:hover,
+footer a:focus {
+  color: #0d6efd;
+  text-decoration: underline;
+  outline: none;
+}
+
+/* Cards & Shadows */
+.card {
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover,
+.card:focus-within {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}

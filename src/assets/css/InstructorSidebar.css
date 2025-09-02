@@ -1,0 +1,95 @@
+/* src/assets/css/InstructorSidebar.css */
+/* Styles for Instructor Sidebar Component */
+/* ==============================
+   Instructor Sidebar Styles
+   ============================== */
+
+.instructor-sidebar {
+  width: 240px;
+  background-color: #ffffff;
+  border-right: 1px solid #e0e0e0;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width 0.3s ease, transform 0.3s ease;
+  z-index: 1050;
+  overflow-x: hidden;
+  padding-top: 60px; /* space for toggle buttons */
+}
+
+/* Collapsed sidebar (desktop) */
+.instructor-sidebar.collapsed {
+  width: 70px;
+}
+
+/* Mobile sidebar overlay */
+.instructor-sidebar.open {
+  transform: translateX(0);
+}
+
+@media (max-width: 991px) {
+  .instructor-sidebar {
+    transform: translateX(-100%);
+  }
+}
+
+/* Toggle buttons */
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #333;
+  margin: 10px;
+  transition: color 0.3s ease;
+}
+
+.toggle-btn:hover,
+.toggle-btn:focus {
+  color: #0d6efd; /* Bootstrap primary color */
+  outline: none;
+}
+
+/* Navigation links */
+.instructor-sidebar .nav-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  color: #333;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  border-radius: 6px;
+  margin: 4px 8px;
+}
+
+.instructor-sidebar .nav-link:hover,
+.instructor-sidebar .nav-link:focus {
+  background-color: #f0f4ff;
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+/* Icon spacing */
+.instructor-sidebar .nav-link svg {
+  margin-right: 10px;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}
+
+/* Hide link text when collapsed */
+.instructor-sidebar.collapsed .link-text {
+  display: none;
+}
+
+/* Center icons when collapsed */
+.instructor-sidebar.collapsed .nav-link {
+  justify-content: center;
+  padding: 12px;
+}
+
+/* Smooth transition for text + icons */
+.link-text {
+  transition: opacity 0.3s ease;
+}

@@ -1,0 +1,31 @@
+/* src/index.css */
+/* Global Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+}
+
+/* Utility Classes */
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+/* Responsive adjustments for main content with sidebar */
+@media (min-width: 992px) {
+  main.ms-lg-260 {
+    margin-left: 260px; /* Matches the sidebar width */
+  }
+}
