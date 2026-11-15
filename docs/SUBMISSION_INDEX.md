@@ -1,0 +1,65 @@
+# Original submission index
+
+Original repository: https://github.com/judeik/sdg4-elearning
+
+Archived default commit: `611a549f71fd89e961f3c0ac419524633c9d0d3d`. Cohort: 2025; September project history, cohort/team unconfirmed.
+
+Evidence classification: **code solution**. Frontend prototype with mock data and placeholder authentication/payments; no fetch/axios API calls found in source. README Router v6 claim differs from declared v7 package. MIT is mentioned in README without a standalone license. Team attribution, data/asset rights and dependency/runtime compatibility remain unverified.
+
+## Original files
+
+- [README.md](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/README.md)
+- [package-lock.json](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/package-lock.json)
+- [package.json](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/package.json)
+- [public/index.html](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/public/index.html)
+- [src/App.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/App.js)
+- [src/assets/css/AdminSidebar.css](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/assets/css/AdminSidebar.css)
+- [src/assets/css/InstructorSidebar.css](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/assets/css/InstructorSidebar.css)
+- [src/assets/css/StudentSidebar.css](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/assets/css/StudentSidebar.css)
+- [src/assets/index.css](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/assets/index.css)
+- [src/components/AdminSidebar.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/components/AdminSidebar.js)
+- [src/components/Footer.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/components/Footer.js)
+- [src/components/InstructorSidebar.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/components/InstructorSidebar.js)
+- [src/components/Navbar.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/components/Navbar.js)
+- [src/components/Sidebar.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/components/Sidebar.js)
+- [src/components/ssSidebar.css](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/components/ssSidebar.css)
+- [src/index.css](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/index.css)
+- [src/index.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/index.js)
+- [src/pages/admin/AdminAnalytics.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/admin/AdminAnalytics.js)
+- [src/pages/admin/AdminDashboard.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/admin/AdminDashboard.js)
+- [src/pages/admin/AdminManageCourses.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/admin/AdminManageCourses.js)
+- [src/pages/admin/AdminManageStudents.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/admin/AdminManageStudents.js)
+- [src/pages/admin/AdminModerateForum.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/admin/AdminModerateForum.js)
+- [src/pages/admin/AdminPaymentHistory.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/admin/AdminPaymentHistory.js)
+- [src/pages/admin/AdminSystemReview.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/admin/AdminSystemReview.js)
+- [src/pages/admin/InstructorPerformance.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/admin/InstructorPerformance.js)
+- [src/pages/admin/StudentPerformance.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/admin/StudentPerformance.js)
+- [src/pages/auth/ForgotPassword.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/auth/ForgotPassword.js)
+- [src/pages/auth/Login.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/auth/Login.js)
+- [src/pages/auth/Register.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/auth/Register.js)
+- [src/pages/auth/ResendVerification.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/auth/ResendVerification.js)
+- [src/pages/auth/ResetPassword.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/auth/ResetPassword.js)
+- [src/pages/general/About.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/general/About.js)
+- [src/pages/general/Contact.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/general/Contact.js)
+- [src/pages/general/CourseDetails.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/general/CourseDetails.js)
+- [src/pages/general/Courses.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/general/Courses.js)
+- [src/pages/general/Home.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/general/Home.js)
+- [src/pages/general/Pricing.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/general/Pricing.js)
+- [src/pages/instructors/CourseEditor.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/instructors/CourseEditor.js)
+- [src/pages/instructors/InstructorCourseDetails.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/instructors/InstructorCourseDetails.js)
+- [src/pages/instructors/InstructorCourses.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/instructors/InstructorCourses.js)
+- [src/pages/instructors/InstructorDashboard.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/instructors/InstructorDashboard.js)
+- [src/pages/instructors/StudentAssignments.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/instructors/StudentAssignments.js)
+- [src/pages/payment/Checkout.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/payment/Checkout.js)
+- [src/pages/payment/PaymentPlans.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/payment/PaymentPlans.js)
+- [src/pages/payment/PaymentSuccess.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/payment/PaymentSuccess.js)
+- [src/pages/students/CertificatePage.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/students/CertificatePage.js)
+- [src/pages/students/CourseHistory.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/students/CourseHistory.js)
+- [src/pages/students/DiscussionForum.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/students/DiscussionForum.js)
+- [src/pages/students/NotificationsPage.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/students/NotificationsPage.js)
+- [src/pages/students/PaymentHistory.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/students/PaymentHistory.js)
+- [src/pages/students/QuizPage.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/students/QuizPage.js)
+- [src/pages/students/StudentDashboard.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/students/StudentDashboard.js)
+- [src/pages/students/StudentProfile.js](https://github.com/judeik/sdg4-elearning/blob/611a549f71fd89e961f3c0ac419524633c9d0d3d/src/pages/students/StudentProfile.js)
+
+These links identify archived content; they do not establish exclusive authorship or publication permission for third-party material. Original code and questions are unchanged. Empty placeholder and brief-only assignments remain explicitly unanswered. Later recovery examples remain on their separately labeled review branch.
